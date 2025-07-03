@@ -1,5 +1,3 @@
-Here's a clean, no-BS `README.md` for your LeetCode repo where you're solving problems using both **brute force** and **optimized algorithms**:
-
 ---
 
 ```markdown

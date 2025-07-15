@@ -2,7 +2,7 @@
 
 def letterCombinations(digits: str) -> list[str]:
     """List all letter combinations of a phone Number using recursion"""
-    if not digits or digits == str(1):
+    if not digits or any(d not in "23456789" for d in digits):
         return []
 
     map_d = {

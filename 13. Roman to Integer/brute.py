@@ -19,4 +19,4 @@ def romanToInt(s: str) -> int:
                 #break
     return res
 
-print(romanToInt('MCMXCIV'))
+print(romanToInt('MMMMMMCMXCIV'))

@@ -39,7 +39,7 @@ function checkInclusion(s1: string, s2: string): boolean {
                 if (s2Count[idx] === s1Count[idx]) {
                         matches++;
                 }
-                else if (s1Count[idx] + 1 === s2Count[idx]) {
+                else if (s1Count[idx] - 1 === s2Count[idx]) {
                         matches--;
                 }
 

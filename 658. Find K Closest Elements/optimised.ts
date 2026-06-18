@@ -9,5 +9,7 @@ function findClosestElements(arr: number[], k: number, x: number): number[] {
 		}
 	}
 
-	return arr[l: l + k];
+	return arr.slice(l, l + k);
 };
+
+console.log(findClosestElements([1,2,3,4,5], 4, 3));

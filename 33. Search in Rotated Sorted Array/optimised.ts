@@ -15,7 +15,7 @@ function search(nums: number[], target: number): number {
 				l = mid + 1;
 			}
 		} else {
-			if (nums[r] < target && target > nums[mid]) {
+			if (nums[mid] < target && target < nums[r]) {
 				l = mid + 1;
 			} else {
 				r = mid - 1;
@@ -25,3 +25,4 @@ function search(nums: number[], target: number): number {
 };
 
 console.log(search([4,5,6,7,0,1,2], 0));
+console.log(search([8,1,2,3,4,5,6,7], 6));

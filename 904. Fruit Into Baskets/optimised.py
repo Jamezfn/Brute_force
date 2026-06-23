@@ -12,8 +12,8 @@ def totalFruit(fruits: List[int]) -> int:
         while len(m) > 2:
             m[fruits[j]] -= 1
 
-            if m[fruits[j]] == 0:
-                del m[fruits[j]]
+            if m[fruits[i]] == 0:
+                del m[fruits[i]]
 
             i += 1
         ans = max(ans, j - i + 1)

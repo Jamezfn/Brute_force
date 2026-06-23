@@ -7,7 +7,7 @@ function totalFruit(fruits: number[]): number {
 		m.set(fruits[j], (m.get(fruits[j]) ?? 0) + 1);
 		while (m.size > 2) {
 			m.set(fruits[j], (m.get(fruits[j]) ?? 0) - 1);
-			if (m.get(fruits[j]) === 0) {
+			if (m.get(fruits[i]) === 0) {
 				m.delete(fruits[i]);
 			}
 			l++;

@@ -16,7 +16,7 @@ function longestNiceSubstring(s: string): string {
 	let result = "";
 
 	for (let i = 0; i < s.length; i++) {
-		for (let j = i + 1; j < s.length; j++) {
+		for (let j = i + 1; j <= s.length; j++) {
 			const sub = s.substring(i, j);
 			if (isNice(sub) && sub.length > result.length) {
 				result = sub;

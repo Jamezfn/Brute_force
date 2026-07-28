@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1785267454996" clover="3.2.0">
+  <project timestamp="1785267454996" name="All files">
+    <metrics statements="37" coveredstatements="31" conditionals="17" coveredconditionals="14" methods="9" coveredmethods="8" elements="63" coveredelements="53" complexity="0" loc="37" ncloc="37" packages="1" files="2" classes="2"/>
+    <file name="helper.ts" path="C:\Users\USER\Brute_force\linked-list\helper.ts">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="13" type="stmt"/>
+      <line num="4" count="13" type="stmt"/>
+      <line num="6" count="13" type="stmt"/>
+      <line num="7" count="34" type="stmt"/>
+      <line num="10" count="13" type="stmt"/>
+    </file>
+    <file name="linkedlist.ts" path="C:\Users\USER\Brute_force\linked-list\linkedlist.ts">
+      <metrics statements="31" coveredstatements="25" conditionals="17" coveredconditionals="14" methods="8" coveredmethods="7"/>
+      <line num="1" count="14" type="stmt"/>
+      <line num="6" count="14" type="stmt"/>
+      <line num="7" count="14" type="stmt"/>
+      <line num="11" count="37" type="stmt"/>
+      <line num="12" count="37" type="stmt"/>
+      <line num="13" count="37" type="stmt"/>
+      <line num="17" count="12" type="cond" truecount="4" falsecount="0"/>
+      <line num="19" count="6" type="stmt"/>
+      <line num="20" count="6" type="stmt"/>
+      <line num="21" count="7" type="stmt"/>
+      <line num="24" count="6" type="stmt"/>
+      <line num="28" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="32" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="39" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="44" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="46" count="3" type="stmt"/>
+      <line num="47" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="49" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="55" count="0" type="stmt"/>
+      <line num="57" count="0" type="stmt"/>
+      <line num="58" count="0" type="stmt"/>
+      <line num="59" count="0" type="stmt"/>
+      <line num="62" count="0" type="stmt"/>
+      <line num="70" count="38" type="stmt"/>
+      <line num="71" count="38" type="stmt"/>
+    </file>
+  </project>
+</coverage>
